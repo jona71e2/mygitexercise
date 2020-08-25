@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+nav a {
+  color: red;
+  border-right: 5px solid black;
+  padding-right: 80px;
+}
+
+nav a:last-child {
+  border-right: none;
+}
